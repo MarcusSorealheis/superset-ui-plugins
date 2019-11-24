@@ -46,6 +46,13 @@
  font-size: 15px !important;
 }
 
+/* make tooltip visibile in Firefox */
+@-moz-document url-prefix() { 
+  .nvtooltip { 
+    top: 50%;
+  }
+}
+
 .superset-legacy-chart-nvd3 text.nv-axislabel {
  font-size: 14px;
 }
